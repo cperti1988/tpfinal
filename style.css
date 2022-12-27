@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: left;
+    gap: 1rem;
+    padding: 0 1rem;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+
+h1{ 
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: blue;
+}
+
+h2{
+    color:blue;
+    font-size: 1rem;
+}
+
+.descripcion{
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.e {
+    min-width: 700px;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.button-wrapper{
+    align-items: flex-end;
+    padding-top: 2rem;
+}
+
+button{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+
+}
+
